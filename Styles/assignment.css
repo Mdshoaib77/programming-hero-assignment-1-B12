@@ -113,7 +113,7 @@ nav ul li{
   display: flex;
   gap: auto;
   padding: 116px 160px 116px 140px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .Action-div img {
   border-radius: 48px;
@@ -127,7 +127,8 @@ nav ul li{
 }
 .Productive-user{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0px 160px;
 }
 .user-title{
   text-align: center;
@@ -261,7 +262,7 @@ nav ul li{
 }
 .contact-section{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 100px 150px 80px 150px;
 }
 .form {
@@ -303,7 +304,8 @@ nav ul li{
   font-family: 'Raleway', sans-serif;
   transform: scale(1.1);
 }
-/* Footer */
+/* Footer Section*/
+
 .footer{
   text-align: center;
     padding: 105px 450px 0px 450px;
