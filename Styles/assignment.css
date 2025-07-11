@@ -53,9 +53,12 @@ nav ul li{
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    transition: background-color 0.4s ease, transform 0.4s ease;
 }
 .btn1:hover {
-  background-color:#28a745;
+  background-color: green;
+  font-family: 'Raleway', sans-serif;
+  transform: scale(1.1);
 }
 .btn2{
     font-size: 16px;
@@ -67,9 +70,12 @@ nav ul li{
     border-radius: 10px;
     margin: 35px 630px 150px 630px;
     cursor: pointer;
+    transition: background-color 0.4s ease, transform 0.4s ease;
 }
 .btn2:hover {
   background-color: green;
+  font-family: 'Raleway', sans-serif;
+  transform: scale(1.1);
 }
 /* Action section */
 .Action-title {
@@ -78,9 +84,9 @@ nav ul li{
    margin-top: 65px;
 }
 .action-description{
-   font-size: 24px;
+  font-size: 24px;
   font-weight: 400;
-  margin-top: 20px;
+   margin-top: 20px;
    color: rgba(37, 36, 50, 0.5); 
 }
 .btn3{
@@ -93,9 +99,12 @@ nav ul li{
     border-radius: 10px;
     margin-top: 20px;
     cursor: pointer;
+    transition: background-color 0.4s ease, transform 0.4s ease;
 }
 .btn3:hover{
   background-color: darkgoldenrod;
+  font-family: 'Raleway', sans-serif;
+  transform: scale(1.1);
 }
 .Action-Section{
   display: flex;
@@ -225,10 +234,13 @@ nav ul li{
   border-radius: 10px;
   margin-top: 20px;
   cursor: pointer;
+  transition: background-color 0.4s ease, transform 0.4s ease;
 }
 
 .btn4:hover {
   background-color: #f252c2;
+  font-family: 'Raleway', sans-serif;
+  transform: scale(1.1);
 }
 .focus-sub-div img {
   border-radius: 48px;
@@ -281,7 +293,43 @@ nav ul li{
     border-radius: 10px;
     margin-top: 15px;
     cursor: pointer;
+    transition: background-color 0.4s ease, transform 0.4s ease;
 }
 .btn5:hover{
   background-color: rebeccapurple;
+  font-family: 'Raleway', sans-serif;
+  transform: scale(1.1);
+}
+/* Footer */
+.footer{
+  text-align: center;
+    padding: 105px 450px 0px 450px;
+    background-color: #FFFFFF;
+
+}
+.logo-title{
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+}
+.footer-des{
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987A1;
+}
+.ancor{
+  text-decoration: none;
+   margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987A1;
+}
+.ul{
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+  list-style:none;
+  margin-top: 20px;
+  padding-bottom: 105px;
 }
